@@ -39,12 +39,15 @@ and provides options to push the code into containerized pipelines to turn it in
 
 
 **5. links/References:**
-[OpenAI GPT3] (https://openai.com/blog/gpt-3-apps/)
+[OpenAI GPT3] : https://openai.com/blog/gpt-3-apps/
 
 Serverless computing options to package and deliver the generated code:
-[IBM] (https://developer.ibm.com/depmodels/serverless/)
-[AWS] (https://aws.amazon.com/lambda/)
-[RedHat] (https://cloud.redhat.com/learn/topics/serverless)
+[IBM] : https://developer.ibm.com/depmodels/serverless/
+
+[AWS] :  https://aws.amazon.com/lambda/
+
+[RedHat] : https://cloud.redhat.com/learn/topics/serverless
+
 
 
 **Project Idea 2.**
