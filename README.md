@@ -1,7 +1,7 @@
 # Team-Project-18 -> Project Ideas
 
-##Project Idea 1.
-#Codeless Application Development
+##**Project Idea 1.
+#Codeless Application Development**
 
 **1. Introduction to the problem statement:**
 In a world where Industry is moving towards Agile model, rapid development and delivery of working software products is a huge challenge.
@@ -46,6 +46,6 @@ Serverless computing options to package and deliver the generated code:
 [RedHat] (https://cloud.redhat.com/learn/topics/serverless)
 
 
-##Project Idea 2.
+##**Project Idea 2.**
 
-##Project Idea 3.
+##**Project Idea 3.**
