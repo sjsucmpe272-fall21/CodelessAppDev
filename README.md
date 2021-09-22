@@ -1,7 +1,8 @@
 # Team-Project-18 -> Project Ideas
 
-** Project Idea 1.**
-** Codeless Application Development**
+**Project Idea 1.**
+
+**Codeless Application Development**
 
 **1. Introduction to the problem statement:**
 In a world where Industry is moving towards Agile model, rapid development and delivery of working software products is a huge challenge.
