@@ -43,16 +43,16 @@ Persona
 
 Links/References:
 ----------
-	[OpenAI GPT3] : https://openai.com/blog/gpt-3-apps/
+[OpenAI GPT3] : https://openai.com/blog/gpt-3-apps/
 
 Serverless computing options to package and deliver the generated code:
 ----
 
-	[IBM] : https://developer.ibm.com/depmodels/serverless/
+[IBM] : https://developer.ibm.com/depmodels/serverless/
 
-	[AWS] :  https://aws.amazon.com/lambda/
+[AWS] :  https://aws.amazon.com/lambda/
 
-	[RedHat] : https://cloud.redhat.com/learn/topics/serverless
+[RedHat] : https://cloud.redhat.com/learn/topics/serverless
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -74,35 +74,37 @@ Logging Component:
 Progess Component:
 	- This will be the one base component that will be available for each Module.
 	- It will be present alongwith each component and it will render the number of hours spent day wise.
-		eg. Sept 1 - 2 hrs
-			Sept 2 - 0 hrs
-			Sept 3 - 0 hrs
-			Sept 4 - 0 hrs
-			Sept 5 - 0 hrs
-			Sept 6 - 0 hrs
-			Sept 7 - 0 hrs
-			Sept 8 - 4 hrs
-			Sept 9 - 0 hrs
-			Sept 10 - 1 hrs
-			Sept 11 - 0 hrs
-			Sept 12 - 0 hrs
-			Sept 13 - 0 hrs
-			Sept 14 - 2 hrs
-			Sept 15 - 0 hrs
-			Sept 16 - 0 hrs
-			Sept 17 - 3 hrs
-			Sept 18 - 0 hrs
-			Sept 19 - 0 hrs
-			Sept 20 - 0 hrs
-			Sept 21 - 0 hrs
-			Sept 22 - 5 hrs
-			Sept 23 - 0 hrs
-			Sept 24 - 6 hrs
-			Sept 25 - 0 hrs
-			Sept 27 - 0 hrs
-			Sept 28 - 0 hrs
-			Sept 29 - 1 hrs
-			Sept 30 - 0 hrs
+		eg.
+		
+					-Sept 1 - 2 hrs
+					-Sept 2 - 0 hrs
+					-Sept 3 - 0 hrs
+					-Sept 4 - 0 hrs
+					-Sept 5 - 0 hrs
+					-Sept 6 - 0 hrs
+					-Sept 7 - 0 hrs
+					-Sept 8 - 4 hrs
+					-Sept 9 - 0 hrs
+					-Sept 10 - 1 hrs
+					-Sept 11 - 0 hrs
+					-Sept 12 - 0 hrs
+					-Sept 13 - 0 hrs
+					-Sept 14 - 2 hrs
+					-Sept 15 - 0 hrs
+					-Sept 16 - 0 hrs
+					-Sept 17 - 3 hrs
+					-Sept 18 - 0 hrs
+					-Sept 19 - 0 hrs
+					-Sept 20 - 0 hrs
+					-Sept 21 - 0 hrs
+					-Sept 22 - 5 hrs
+					-Sept 23 - 0 hrs
+					-Sept 24 - 6 hrs
+					-Sept 25 - 0 hrs
+					-Sept 27 - 0 hrs
+					-Sept 28 - 0 hrs
+					-Sept 29 - 1 hrs
+					-Sept 30 - 0 hrs
 
 		We can then give metrics like:
 			- users longest continuous streak
@@ -171,10 +173,12 @@ Persona
 ----------
 - Call centres, customer care, etc.
 
-
-5. links/References:
+Links/References:
+----------
 https://heartbeat.comet.ml/sentiment-analysis-of-speech-using-pydub-and-speechrecognition-in-python-8a0f3bdabc80
+
 https://cloud.google.com/architecture/visualize-speech-data-with-framework
+
 https://arxiv.org/ftp/arxiv/papers/1802/1802.06209.pdf
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
