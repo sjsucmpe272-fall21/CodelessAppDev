@@ -152,7 +152,6 @@ Persona
 
 
 **Project Idea 3.**
---------------------
 **Audio Sentiment Analysis**
 ---------------------------
 
@@ -188,7 +187,6 @@ https://arxiv.org/ftp/arxiv/papers/1802/1802.06209.pdf
 
 
 **Project Idea 4.**
---------------------
 **Voice based chat bot**
 ----------
 
@@ -217,4 +215,5 @@ Persona
 Links and references
 ----------
 https://cloud.google.com/dialogflow/es/docs/integrations/phone-gateway
+
 https://www.ibm.com/cloud/ai/customer-service
