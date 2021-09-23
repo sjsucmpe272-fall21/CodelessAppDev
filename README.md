@@ -43,16 +43,16 @@ Persona
 
 Links/References:
 ----------
-[OpenAI GPT3] : https://openai.com/blog/gpt-3-apps/
+[OpenAI GPT3]: https://openai.com/blog/gpt-3-apps/
 
 Serverless computing options to package and deliver the generated code:
 ----
 
-[IBM] : https://developer.ibm.com/depmodels/serverless/
+[IBM]: https://developer.ibm.com/depmodels/serverless/
 
-[AWS] :  https://aws.amazon.com/lambda/
+[AWS]:  https://aws.amazon.com/lambda/
 
-[RedHat] : https://cloud.redhat.com/learn/topics/serverless
+[RedHat]: https://cloud.redhat.com/learn/topics/serverless
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -68,9 +68,11 @@ Abstract (Rough draft):
 ----------------------------
 Logging Component: 
     - This will be the one base component that will be available throughout.
-	- This component will accept a text or image input at a certain point in time. And once the user saves the data, it will be persisted in a database (mostly MongoDB) under appropriate title.
+	- This component will accept a text or image input at a certain point in time. And once the user saves the data, 
+	  it will be persisted in a database (mostly MongoDB) under appropriate title.
 	- Why image input?
-		- Because at times, we usually take notes physically with pen and paper. Once done, user can have it clicked and just upload it on the portal
+		- Because at times, we usually take notes physically with pen and paper. 
+		  Once done, user can have it clicked and just upload it on the portal
 
 Progess Component:
 	- This will be the one base component that will be available for each Module.
@@ -117,12 +119,16 @@ MODULES:
 
 	1. Academics
 		- (Lecture notes etc.)
-		- (I feel this would be very useful if later, say after a year or two, I quickly remember that some professor had mentioned something in his lecture and I want to refer to that...)
+		- (I feel this would be very useful if later, say after a year or two, 
+		   I quickly remember that some professor had mentioned something 
+		   in his lecture and I want to refer to that...)
 		- To ensure that a student gives equal amount of time to all his courses.
 
 	2. Personal technical growth
 		- Personal projects, 
-		- Technologies to learn (it usually happens you learn something of some tech, but then since you didn't log it, you dont recollect the progess you had done earlier; leading you to start all over or worst - drop the learning all together)
+		- Technologies to learn (it usually happens you learn something of some tech, 
+		   but then since you didn't log it, you dont recollect the progess you had done earlier; 
+		   leading you to start all over or worst - drop the learning all together)
 		- Certifications, exams prep
 
 	3. Job Prep
@@ -137,9 +143,11 @@ MODULES:
 
 	5. Personal Space
 		- Entertainment
-			- Collate all your music playlists (links or youtube video embeds) at one place like youtube music, spotify, Amazon Music etc.
+			- Collate all your music playlists (links or youtube video embeds) at one place 
+			  like youtube music, spotify, Amazon Music etc.
 		- Motivation / quotes etc.
-			- you can have your own articles, or you can make some notes over some motivational video that you saw on youtube.
+			- you can have your own articles, or you can make some notes 
+			  over some motivational video that you saw on youtube.
 
 Approach
 ----------
@@ -215,6 +223,6 @@ Persona
 
 Links and references
 ----------
-https://cloud.google.com/dialogflow/es/docs/integrations/phone-gateway
+[Google's Phone Gateway]:https://cloud.google.com/dialogflow/es/docs/integrations/phone-gateway
 
-https://www.ibm.com/cloud/ai/customer-service
+[IBM Watson's AI solution]:https://www.ibm.com/cloud/ai/customer-service
