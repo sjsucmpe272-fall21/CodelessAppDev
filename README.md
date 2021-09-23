@@ -1,8 +1,6 @@
 # Team-Project-18 -> Project Ideas
 
 **Project Idea 1.**
-
-
 **Codeless Application Development**
 ----------------------
 
@@ -147,4 +145,38 @@ Persona
 
 
 **Project Idea 3.**
+--------------------
+Audio Sentiment Analysis
+---------------------------
+
+
+Introduction to the problem statement:
+-----------------------------------------
+
+One of the major issues faced by Customer Care call centres is that customers rarely give feedback if they are satisfied with the service or not. As such, these centres rarely have enough data to improve on.
+
+Abstract (Rough draft): 
+----------------------------
+
+Every call recorded by the call centre can be fed to a program that will analyse the tone and in turn show how satisfied the customer was. This saves time on behalf of the customer as well as these agencies. Most of the work is around text based sentimental analysis. This project suggests to take it one step further and analyse audio.
+
+Approach
+----------
+A front-end to upload the voice samples and backend and running a server that will analyse and return the output, which will be stored in a database.
+The basic approach in analysing will be – detect human speech using VAD, recognize the speaker, speech and finally analyse the sentiment.
+
+Persona
+----------
+- Call centres, customer care, etc.
+
+
+5. links/References:
+https://heartbeat.comet.ml/sentiment-analysis-of-speech-using-pydub-and-speechrecognition-in-python-8a0f3bdabc80
+https://cloud.google.com/architecture/visualize-speech-data-with-framework
+https://arxiv.org/ftp/arxiv/papers/1802/1802.06209.pdf
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+**Project Idea 4.**
 --------------------
