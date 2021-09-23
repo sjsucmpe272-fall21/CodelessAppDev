@@ -105,12 +105,15 @@ Progess Component:
 					-Sept 28 - 0 hrs
 					-Sept 29 - 1 hrs
 					-Sept 30 - 0 hrs
+					
+					
 
 		We can then give metrics like:
 			- users longest continuous streak
 			- plot a graph of users hours spent
 
 MODULES:
+
 	1. Academics
 		- (Lecture notes etc.)
 		- (I feel this would be very useful if later, say after a year or two, I quickly remember that some professor had mentioned something in his lecture and I want to refer to that...)
@@ -150,7 +153,7 @@ Persona
 
 **Project Idea 3.**
 --------------------
-Audio Sentiment Analysis
+**Audio Sentiment Analysis**
 ---------------------------
 
 
@@ -186,3 +189,32 @@ https://arxiv.org/ftp/arxiv/papers/1802/1802.06209.pdf
 
 **Project Idea 4.**
 --------------------
+**Voice based chat bot**
+----------
+
+Introduction to the problem statement:
+-----------------------------------------
+If You want to provide better service over the phone, but often limited resource planning simply does not allow that ideal level of improvement. This is a common challenge. When it comes to automation, many people seem to have reservations about the quality of customer service. But the opposite is the case: Why should it be bad that a VoiceBot is used for questions that can be answered automatically and therefore quickly and at any time? If you give people the choice of either waiting longer to be able to speak to a person, or offering a response directly from a VoiceBot, many will opt for artificial intelligence.
+
+
+Abstract (Rough draft): 
+----------------------------
+
+Voice Bots(VBs) have been a trending topic in recent years. As of the last decade, VBs have emerged with the aim of simplifying human-machine interactions and found a wide use case in the market. For example, Siri and Google Assistant are some of the most well-known VB’s developed by the tech giants Apple and Google. Whether navigating the web or messaging on a phone, it is likely that VBs have been confronted offering the user help. In this code pattern we will create a Machine Learning VB, but the twist here is that we'll be using voice input and output. For the conversation dialog we'll be using VoiceBot Assistant, but we'll also be using Voicebot Speech To Text to capture the user's voice, and lastly we'll use Voicebot’s Text To Speech to playback the VoiceBots response to the user. 
+
+Approach
+----------
+A customer begins a spoken or digital interaction using natural, conversational language. The bot uses natural language processing (NLP) to understand the customer’s intent and find the right solution. The VoiceBot here recognizes it and processes the customer’s request and replies to the customer in speech. Use the integrated Natural Language Understanding (NLU) menu items to automatically apply machine learning to understand customer intents. 
+
+Persona
+----------
+-VoiceBots in Sales influences customers' decision-making process by handle customers’ emotions well, making them more likely to purchase the products
+-VoiceBots in Education make it easier for a student to be informed about the critical events in their student life such as learning the deadlines for assignments and their final grades on a course
+-Home automation, which is achieved by integrating IoTdevices with voice assistants, is considered one of the main uses of voice assistants
+-Can be especially helpful for visually impaired people or people who have limited mobility
+
+
+Links and references
+----------
+https://cloud.google.com/dialogflow/es/docs/integrations/phone-gateway
+https://www.ibm.com/cloud/ai/customer-service
