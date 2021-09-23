@@ -36,21 +36,23 @@ and provides options to push the code into containerized pipelines to turn it in
 
 Persona
 ----------
--Businesses, Companies, Developers on the lookout for Rapid Development and Deliverables.
--Non-Techies who want to build things without deep diving into the tech infrastructure.
--Students who want to understand the flow of Agile Development
+
+	-Businesses, Companies, Developers on the lookout for Rapid Development and Deliverables.
+	-Non-Techies who want to build things without deep diving into the tech infrastructure.
+	-Students who want to understand the flow of Agile Development
 
 Links/References:
 ----------
-[OpenAI GPT3] : https://openai.com/blog/gpt-3-apps/
+	[OpenAI GPT3] : https://openai.com/blog/gpt-3-apps/
 
 Serverless computing options to package and deliver the generated code:
+----
 
-[IBM] : https://developer.ibm.com/depmodels/serverless/
+	[IBM] : https://developer.ibm.com/depmodels/serverless/
 
-[AWS] :  https://aws.amazon.com/lambda/
+	[AWS] :  https://aws.amazon.com/lambda/
 
-[RedHat] : https://cloud.redhat.com/learn/topics/serverless
+	[RedHat] : https://cloud.redhat.com/learn/topics/serverless
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
