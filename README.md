@@ -42,6 +42,7 @@ and provides options to push the code into containerized pipelines to turn it in
 [OpenAI GPT3] : https://openai.com/blog/gpt-3-apps/
 
 Serverless computing options to package and deliver the generated code:
+
 [IBM] : https://developer.ibm.com/depmodels/serverless/
 
 [AWS] :  https://aws.amazon.com/lambda/
@@ -49,7 +50,95 @@ Serverless computing options to package and deliver the generated code:
 [RedHat] : https://cloud.redhat.com/learn/topics/serverless
 
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Project Idea 2.**
+**JARVIS - A personal assistant portal**
+
+Introduction to the problem statement:
+-----------------------------------------
+With all the multiple things one is involved in daily - Academics, Personal technical growth, Job prep, blogging, meetings, socializing, fitness, self-improvement etc, we plan to create a single portal (a web application) wherein users can keep track of their progress across each dimension.
+
+Abstract (Rough draft): 
+----------------------------
+Logging Component: 
+    - This will be the one base component that will be available throughout.
+	- This component will accept a text or image input at a certain point in time. And once the user saves the data, it will be persisted in a database (mostly MongoDB) under appropriate title.
+	- Why image input?
+		- Because at times, we usually take notes physically with pen and paper. Once done, user can have it clicked and just upload it on the portal
+
+Progess Component:
+	- This will be the one base component that will be available for each Module.
+	- It will be present alongwith each component and it will render the number of hours spent day wise.
+		eg. Sept 1 - 2 hrs
+			Sept 2 - 0 hrs
+			Sept 3 - 0 hrs
+			Sept 4 - 0 hrs
+			Sept 5 - 0 hrs
+			Sept 6 - 0 hrs
+			Sept 7 - 0 hrs
+			Sept 8 - 4 hrs
+			Sept 9 - 0 hrs
+			Sept 10 - 1 hrs
+			Sept 11 - 0 hrs
+			Sept 12 - 0 hrs
+			Sept 13 - 0 hrs
+			Sept 14 - 2 hrs
+			Sept 15 - 0 hrs
+			Sept 16 - 0 hrs
+			Sept 17 - 3 hrs
+			Sept 18 - 0 hrs
+			Sept 19 - 0 hrs
+			Sept 20 - 0 hrs
+			Sept 21 - 0 hrs
+			Sept 22 - 5 hrs
+			Sept 23 - 0 hrs
+			Sept 24 - 6 hrs
+			Sept 25 - 0 hrs
+			Sept 27 - 0 hrs
+			Sept 28 - 0 hrs
+			Sept 29 - 1 hrs
+			Sept 30 - 0 hrs
+
+		We can then give metrics like:
+			- users longest continuous streak
+			- plot a graph of users hours spent
+
+MODULES:
+	1. Academics
+		- (Lecture notes etc.)
+		- (I feel this would be very useful if later, say after a year or two, I quickly remember that some professor had mentioned something in his lecture and I want to refer to that...)
+		- To ensure that a student gives equal amount of time to all his courses.
+
+	2. Personal technical growth
+		- Personal projects, 
+		- Technologies to learn (it usually happens you learn something of some tech, but then since you didn't log it, you dont recollect the progess you had done earlier; leading you to start all over or worst - drop the learning all together)
+		- Certifications, exams prep
+
+	3. Job Prep
+		- Internship search
+		- Leetcode
+
+	3. Blogging
+		- Say you solved a technical problem after hours of googling and you want to record it step-by-step. 
+
+	4. Meetings
+		- To store all the MoMs (Minutes of Meeting)
+
+	5. Personal Space
+		- Entertainment
+			- Collate all your music playlists (links or youtube video embeds) at one place like youtube music, spotify, Amazon Music etc.
+		- Motivation / quotes etc.
+			- you can have your own articles, or you can make some notes over some motivational video that you saw on youtube.
+
+Approach
+----------
+- The application will be a MERN application. 
+- Since ReactJS is used for frontend, we may use React-Native to build an app for it
+
+Persona
+----------
+- Students
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 **Project Idea 3.**
