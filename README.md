@@ -43,16 +43,20 @@ Persona
 
 Links/References:
 ----------
-[OpenAI GPT3]: https://openai.com/blog/gpt-3-apps/
+OpenAI GPT3: 
+https://openai.com/blog/gpt-3-apps/
 
 Serverless computing options to package and deliver the generated code:
 ----
 
-[IBM]: https://developer.ibm.com/depmodels/serverless/
+IBM:
+https://developer.ibm.com/depmodels/serverless/
 
-[AWS]:  https://aws.amazon.com/lambda/
+AWS:
+https://aws.amazon.com/lambda/
 
-[RedHat]: https://cloud.redhat.com/learn/topics/serverless
+RedHat:
+https://cloud.redhat.com/learn/topics/serverless
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -223,6 +227,8 @@ Persona
 
 Links and references
 ----------
-[Google's Phone Gateway]:https://cloud.google.com/dialogflow/es/docs/integrations/phone-gateway
+Google's Phone Gateway:
+https://cloud.google.com/dialogflow/es/docs/integrations/phone-gateway
 
-[IBM Watson's AI solution]:https://www.ibm.com/cloud/ai/customer-service
+IBM Watson's AI solution:
+https://www.ibm.com/cloud/ai/customer-service
