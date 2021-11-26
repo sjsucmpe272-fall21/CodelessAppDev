@@ -1,20 +1,19 @@
 try:
-    from flask import Flask, render_template, url_for, request, redirect, make_response
-    import random
-    import json
-    from time import time
-    from random import random
+    from flask import Flask, url_for, redirect, session
     from flask_dance.contrib.github import make_github_blueprint, github
-    from flask_login import logout_user
+    import os
+    from dotenv import dotenv_values
 except Exception as e:
     print("Some Modules are Missings {}".format(e))
 
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "3c438f4b1420c901ca89cc73a233e5865d9f8d2f"
 
-github_blueprint = make_github_blueprint(client_id='3aab68cf0f350df369ce',
-                                         client_secret='3c438f4b1420c901ca89cc73a233e5865d9f8d2f')
+config = dotenv_values(".env") #get the values from here - config = {"USER": "foo", "EMAIL": "foo@example.org"}
+app.config["SECRET_KEY"] = config["GITHUB_OAUTH_CLIENT_SECRET"]
+
+github_blueprint = make_github_blueprint(client_id=config["GITHUB_OAUTH_CLIENT_ID"],
+                                         client_secret=config["GITHUB_OAUTH_CLIENT_SECRET"])
 
 app.register_blueprint(github_blueprint, url_prefix='/github_login')
 
@@ -39,8 +38,8 @@ def homepage():
 
 @app.route("/logout")
 def logout():
-    logout_user()
-    return redirect()
+    session.clear()
+    return redirect('/')
 
 
 @app.route('/hello')
