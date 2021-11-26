@@ -7,11 +7,20 @@ function Homepage() {
   }
   return (
     <div>
-      <Link to="/login">
-        <button onClick={go_to_login} className="btn btn-primary">
-          Login Using Github
-        </button>
-      </Link>
+      {/* <Link to="www.google.https://www.google.com/?client=safari"> */}
+      <button
+        onClick={() => window.open("http://localhost:5000/login", "_self")}
+        className="btn btn-primary"
+      >
+        Login Using Github
+      </button>
+      {/* </Link> */}
+      <br />
+      {/* <Link to="www.google.https://www.google.com/"> */}
+      <a target="_self" href="www.google.com" target="_self">
+        <button className="btn btn-primary">Login Using Github button 2</button>
+      </a>
+      {/* </Link> */}
     </div>
   );
 }
