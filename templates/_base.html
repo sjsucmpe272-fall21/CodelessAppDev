@@ -1,0 +1,29 @@
+<!-- templates/_base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      textarea {
+        width: 100%;
+        height: 100%;
+        size: 1em;
+      }
+    </style>
+    <title>CodelessAppDev</title>
+  </head>
+  <body style="padding-top: 1%;">
+    <h1 style="text-align:center">CodelessAppDev</h1> <br>
+    {% block content %}{% endblock content %}
+  </body>
+</html>
