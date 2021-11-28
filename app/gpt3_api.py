@@ -1,6 +1,6 @@
 import openai
-openai.api_key = "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"
-
+import os
+openai.api_key = os.getenv("OPENAI_API_KEY")
 prompt="#create a flask route and method to check if a given string contains digits\n"
 
 def get_flask_response(prompt):
