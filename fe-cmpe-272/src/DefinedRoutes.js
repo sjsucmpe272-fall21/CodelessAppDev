@@ -4,6 +4,7 @@ import Login from "./components/Login";
 import LandingPage from "./components/LandingPage";
 import Func1 from "./components/Func1";
 import Func2 from "./components/Func2";
+import Func3 from "./components/Func3";
 
 export default function DefinedRoutes() {
   return (
@@ -14,6 +15,7 @@ export default function DefinedRoutes() {
         <Route path="/landingpage" element={<LandingPage />} />
         <Route path="/func1" element={<Func1 />} />
         <Route path="/func2" element={<Func2 />} />
+        <Route path="/func3" element={<Func3 />} />
       </Routes>
     </BrowserRouter>
   );
