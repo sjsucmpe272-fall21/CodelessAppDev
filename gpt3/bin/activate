@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/suhasanandbalagar/Desktop/272/project/GPT3_API_gitlogin/gpt3"
+VIRTUAL_ENV="/Users/suhasanandbalagar/Desktop/272/project/CodelessAppDev/gpt3"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

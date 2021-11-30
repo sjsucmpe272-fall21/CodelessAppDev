@@ -29,7 +29,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/suhasanandbalagar/Desktop/272/project/GPT3_API_gitlogin/gpt3"
+set -gx VIRTUAL_ENV "/Users/suhasanandbalagar/Desktop/272/project/CodelessAppDev/gpt3"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

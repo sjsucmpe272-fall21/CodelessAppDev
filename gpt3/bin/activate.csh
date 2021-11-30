@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/suhasanandbalagar/Desktop/272/project/GPT3_API_gitlogin/gpt3"
+setenv VIRTUAL_ENV "/Users/suhasanandbalagar/Desktop/272/project/CodelessAppDev/gpt3"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

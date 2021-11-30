@@ -49,14 +49,8 @@ https://openai.com/blog/gpt-3-apps/
 Serverless computing options to package and deliver the generated code:
 ----
 
-IBM:
-https://developer.ibm.com/depmodels/serverless/
-
-AWS:
-https://aws.amazon.com/lambda/
-
-RedHat:
-https://cloud.redhat.com/learn/topics/serverless
+Heroku:
+https://dashboard.heroku.com/apps
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
