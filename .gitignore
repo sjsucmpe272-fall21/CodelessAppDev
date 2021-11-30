@@ -1,0 +1,4 @@
+*.db
+users.db
+*.env
+.env.local
