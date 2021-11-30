@@ -1,0 +1,34 @@
+{% extends '_base.html' %}
+{% block content %}
+{% if current_user.is_authenticated %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>
+                     
+                        <form action="{{ url_for('SQL_code_generation') }}" method="post">
+                            <textarea  name="req_prompt" id="req_prompt" cols="30" rows="3">{{prompt}}</textarea> 
+                           <br>
+                                <input type="submit" value="Create SQL Queries" >
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                  <textarea name="" id="" cols="60" rows="10"> {{result}}</textarea>
+                </div>
+            </div>
+            <br><br>
+            <a href="{{url_for('logout')}}" class="btn btn-danger">Logout</a>
+            {% else %}
+            <!-- GitHub button starts here -->
+            <a href="{{url_for('login_github')}}"  class="btn btn-secondary">
+              <i class="fa fa-github fa-fw"></i>
+              <span>Login with GitHub</span>
+            </a>
+            <!-- GitHub button ends here -->
+      
+          {% endif %}
+        </div>
+
+{% endblock content %}

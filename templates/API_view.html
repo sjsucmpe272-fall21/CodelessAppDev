@@ -1,0 +1,42 @@
+{% extends '_base.html' %}
+{% block content %}
+{% if current_user.is_authenticated %}
+        <div class="container">
+ 
+            <div class="row">
+                <div class="col-md-12">
+                  
+                    <h4>Generated code is as below:</h4>
+                    <br>
+                    <textarea disabled>{{ new_code }}</textarea>
+                    <h4>Replace the content between "&lt;" and "&gt;" with actual number/string and test the url</h4>
+                   <br>
+                   <label for="api"><h4>API Generated</h4></label>
+                   <input type="text" id="api" style="width: 100%" value="{{ api }}">
+                     <br>
+                     <a onclick="hitAPI()" target="_blank" class="btn btn-primary">Test API</a> <br><br><br>
+                   <a href="{{url_for('logout')}}" class="btn btn-danger">Logout</a>
+
+                </div>
+            </div>
+
+            <script>
+                function hitAPI() {
+                    console.log("hello");
+                    var x = document.getElementById("api");
+                  window.open(x.value, '_blank');
+                }
+                </script>
+
+            {% else %}
+            <!-- GitHub button starts here -->
+            <a href="{{url_for('login_github')}}"  class="btn btn-secondary">
+              <i class="fa fa-github fa-fw"></i>
+              <span>Login with GitHub</span>
+            </a>
+            <!-- GitHub button ends here -->
+      
+          {% endif %}
+        </div>
+
+{% endblock content %}
