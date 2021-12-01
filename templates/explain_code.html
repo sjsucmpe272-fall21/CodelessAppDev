@@ -5,11 +5,11 @@
             <div class="row">
                 <div class="col-md-12">
                     <h4>
-                    Enter your SQL requirement in English:
-                        <form action="{{ url_for('SQL_code_generation') }}" method="post">
+                    Enter your Code to be explained:
+                        <form action="{{ url_for('explain_code') }}" method="post">
                             <textarea  name="req_prompt" id="req_prompt" cols="30" rows="10">{{prompt}}</textarea> 
                            <br>
-                                <input type="submit" value="Create SQL Queries" >
+                                <input type="submit" value="Explain the above code" >
                    
                 </div>
             </div>

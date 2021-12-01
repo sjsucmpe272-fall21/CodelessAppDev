@@ -13,7 +13,7 @@
 
       <a href="{{url_for('flask_code_generation')}}" class="btn btn-primary">flask_API_generator</a><br><br>
       <a href="{{ url_for('SQL_code_generation') }}" class="btn btn-primary">SQL Query generator</a><br><br>
-      <a href="#" class="btn btn-primary">Code code Explainer</a><br><br>
+      <a href="{{url_for('explain_code')}}" class="btn btn-primary">Code code Explainer</a><br><br>
       <hr style="width:100%; align-items:center", size="3", color=black> <br>
       <a href="{{url_for('logout')}}" class="btn btn-danger">Logout</a>
     {% else %}

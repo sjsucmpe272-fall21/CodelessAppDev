@@ -9,7 +9,7 @@ from flask_login import logout_user, login_required
 
 from app.models import db, login_manager
 from app.oauth import github_blueprint
-from app.gpt3_api import get_flask_response,get_SQL_response
+from app.gpt3_api import get_code_explaination, get_flask_response,get_SQL_response
 from flask import request
 import base64
 import requests
@@ -100,7 +100,7 @@ def flask_code_generation():
 
 @app.route("/SQL_code_generation",methods =['GET', 'POST'])
 def SQL_code_generation():
-    prompt="#create a SQL query to get the number of users in the database"
+    prompt="#Write SQL code to left inner join Employee table with Manager Table"
     result=get_SQL_response(prompt)
     session['result']=result
     get_SQL_response(prompt)
@@ -110,6 +110,18 @@ def SQL_code_generation():
         result=get_SQL_response(prompt)
         
     return render_template("SQL_code.html",prompt=prompt,result=result)
+
+@app.route("/explain_code",methods =['GET', 'POST'])
+def explain_code():
+    prompt="@app.route('/isDivisibleBy19/<int:number>')\ndef isDivisibleBy19(number):\n\tif number % 19 == 0:\n\t\treturn '{} is divisible by 19'.format(number)\n\telse:\n\t\treturn '{} is not divisible by 19'.format(number)"
+    result=get_code_explaination(prompt)
+    session['result']=result
+    if request.method=='POST':
+        prompt = request.form['req_prompt']
+        print(prompt)
+        result=get_code_explaination(prompt)
+        
+    return render_template("explain_code.html",prompt=prompt,result=result)
 
 @app.route("/commit_code_to_create_api")
 def commit_code_to_create_api():
