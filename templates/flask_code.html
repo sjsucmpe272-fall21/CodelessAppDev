@@ -4,22 +4,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                   
+                   <h1>Please enter your API requirement in English<br>(refer below prompt for reference:)</h1>
                         <form action="{{ url_for('flask_code_generation') }}" method="post">
                             <textarea  name="req_prompt" id="req_prompt" cols="30" rows="3">{{prompt}}</textarea> 
-                           <br>
-                                <input type="submit" value="Create code" >
+                           
+                                <input type="submit" class="btn btn-primary" value="Create code" ><br>
+                                <hr style="width:100%; align-items:center", size="3", color=black> 
                         </form>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
+                  <h1>Code Generated:</h1>
                   <textarea name="" id="" cols="60" rows="10"> {{result}}</textarea>
                 </div>
             </div>
             <br><br>
             <a href="{{url_for('commit_code_to_create_api')}}" class="btn btn-secondary">Generate API</a>
-            <br><br>
+            <hr style="width:100%; align-items:center", size="3", color=black> <br>
+            <br>
             <a href="{{url_for('logout')}}" class="btn btn-danger">Logout</a>
             {% else %}
             <!-- GitHub button starts here -->

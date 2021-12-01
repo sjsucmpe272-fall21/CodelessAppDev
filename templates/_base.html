@@ -12,6 +12,9 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
       textarea {
@@ -19,11 +22,22 @@
         height: 100%;
         size: 1em;
       }
+      h1{
+        font-family: 'Fira Code', monospace;
+        font-size: 2em;
+        color: black;
+      }
+      h4{
+        font-family: 'Fira Code', monospace;
+        font-size: 1.5em;
+        color: black;
+      }
     </style>
     <title>  CodelessAppDev </title> 
   </head>
   <body style="padding-top: 1%;">
-    <h1 style="text-align:center"><a href="/">CodelessAppDev</a> </h1> <br>
+    <h1 style="text-align:center"><a href="/">CODELESS APP DEV</a> </h1>
+    <hr style="width:100%; align-items:center", size="3", color=black>
     {% block content %}{% endblock content %}
   </body>
 </html>
