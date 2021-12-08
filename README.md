@@ -57,11 +57,20 @@ Persona
 
 Links/References:
 ----------
-OpenAI GPT3: 
-https://openai.com/blog/gpt-3-apps/
+OpenAI GPT3: https://openai.com/blog/gpt-3-apps/
+
 Application URL: https://codeless-appdev.herokuapp.com/
+
 API endpoint URL:https://codeless-flask-api.herokuapp.com/
+
 Repo for API generation : https://github.com/suhasAB/Flask_Heroku_API
+
+Flask :https://github-flask.readthedocs.io/en/latest/
+
+Github Oauth: https://github-flask.readthedocs.io/en/latest/
+
+Github Commit from API: :https://docs.github.com/en/rest/reference/repos#create-or-update-file-contents
+
 
 
 Deployment on Heroku
